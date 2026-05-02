@@ -17,3 +17,15 @@ python3 -m http.server 8080
 ## تشغيل API الحقيقي
 لاستخدام `/api/spark` فعلياً، شغّل عبر Vercel/Next.js مع متغير البيئة:
 - `ANTHROPIC_API_KEY`
+
+## تصفح النسخة الأولية قبل النشر (الطريقة الأسرع)
+من جذر المشروع:
+
+```bash
+./run-preview.sh
+```
+
+ثم افتح مباشرة:
+`http://localhost:8080/web/index.html`
+
+> إذا أردت منفذ مختلف: `./run-preview.sh 9090`
