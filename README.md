@@ -68,3 +68,16 @@ flowchart TD
 - خارطة تنفيذ تفصيلية: `docs/execution-plan-ar.md`
 - قائمة ميزات متقدمة وتحليلات: `docs/advanced-features-ar.md`
 
+
+---
+
+## كيف تتصفح المنصة الآن؟
+
+للمعاينة الفورية افتح: `web/index.html` بعد تشغيل سيرفر محلي.
+
+```bash
+python3 -m http.server 8080
+# ثم افتح http://localhost:8080/web/index.html
+```
+
+شرح كامل: `docs/how-to-browse-ar.md`.
