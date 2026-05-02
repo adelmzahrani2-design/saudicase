@@ -87,3 +87,9 @@ python3 -m http.server 8080
 - بعد النشر على Vercel: `https://manarah-yourname.vercel.app`
 - توجيه `/` مضبوط لفتح واجهة المنصة مباشرة (`web/index.html`) عبر `vercel.json`.
 - تعليمات النشر السريع: `DEPLOY_NOW_AR.md`.
+
+
+### كيف أفتح الرابط؟
+- إذا لديك رابط Vercel: افتحه مباشرة في المتصفح.
+- إذا لا يوجد رابط بعد: انشر عبر Vercel (راجع `DEPLOY_NOW_AR.md`).
+- دليل سريع مفصل: `docs/open-link-step-by-step-ar.md`.
